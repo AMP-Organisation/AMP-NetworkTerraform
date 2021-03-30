@@ -60,5 +60,5 @@ jobs:
         run: exit 1
 
       - name: Terraform Apply
-        if: github.event.issue.pull_request || contains(github.event.comment.body, 'terraform apply')
+        if: github.event.pull_request.merged == true
         run: terraform apply -auto-approve
