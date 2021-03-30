@@ -3,14 +3,6 @@ variable "region" {
   description = "AWS Deployment region.."
 }
 
-variable "key-account" {
-  description = "AWS public key account"
-}
-
-variable "private-key-account" {
-  description = "AWS private key account"
-}
-
 # Networking :
 
 variable "vpc_cidr" {
