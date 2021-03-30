@@ -1,4 +1,4 @@
-﻿# The region to deploy your AWS architecture
+# The region to deploy your AWS architecture
 region = "eu-west-1"
 
 # The CIDR block of your VPC

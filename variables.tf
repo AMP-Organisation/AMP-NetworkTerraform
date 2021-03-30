@@ -1,5 +1,5 @@
 variable "region" {
-  default = "eu-west-1"
+  default     = "eu-west-1"
   description = "AWS Deployment region.."
 }
 
@@ -14,6 +14,6 @@ variable "private-key-account" {
 # Networking :
 
 variable "vpc_cidr" {
-  default = "10.0.0.0/16"
+  default     = "10.0.0.0/16"
   description = "the CIDR of the vpc"
 }
